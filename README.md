@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# 🎬 BingeFlix – Movie & Series Discovery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+BingeFlix is a fully responsive movie and web series browsing application powered by the TMDB API.  
+Users can explore trending titles, watch trailers via YouTube, read detailed descriptions,  
+and search any movie or series with ease.
 
-## Available Scripts
+## 🚀 Features
+- Latest Movies & Web Series Display
+- Watch Trailers & Clips on YouTube
+- Detailed Info & Cast
+- Search Any Movie/Series
+- Fully Responsive on All Devices
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- React JS
+- SCSS
+- TMDB API
+- Axios / Fetch
+- React Router
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📦 Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+# Clone repository
+git clone https://github.com/<your-username>/bingeflix.git
 
-### `npm test`
+# Go to project directory
+cd bingeflix
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Install dependencies
+npm install
 
-### `npm run build`
+# Run the app
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+App will start on: http://localhost:3000
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#Project Build
+npm run build
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+bingeflix/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│── public/
+│── screenshots/ 
+│── src/
+│ ├── api/ 
+│ ├── assets/
+│ ├── components/
+│ ├── config/ 
+│ ├── pages/
+│ ├── scss/
+│ ├── App.js
+│ ├── App.scss
+│ └── index.js
+│── .gitignore
+│── package.json
+│── package-lock.json
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📸 Screenshots
+### 🏠 Homepage
+![BingeFlix Homepage](./screenshots/home.png)
+![BingeFlix Homepage](./screenshots/home2.png)
+![BingeFlix Homepage](./screenshots/home3.png)
+![BingeFlix Homepage](./screenshots/home4.png)
+![BingeFlix Homepage](./screenshots/home5.png)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🎬 Movies  Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Movies  Page](./screenshots/movies1.png)
+![Movies  Page](./screenshots/movies2.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 🎬 TV Series Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Series Page](./screenshots/series1.png)
+![Series Page](./screenshots/series2.png)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🎬  Search Option
 
-### Advanced Configuration
+![Search Result](./screenshots/search_results.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### 🎬  App Purpose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![App View](./screenshots/result1.png)
+![App View](./screenshots/result2.png)
+![App View](./screenshots/result3.png)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📱 Responsive UI
+![Mobile View](./screenshots/mobile_view1.png)
+![Mobile View](./screenshots/mobile_view2.png)
+![Mobile View](./screenshots/mobile_view3.png)
+![Mobile View](./screenshots/mobile_view4.png)
+![Mobile View](./screenshots/mobile_view5.png)
+
+
+## 📜 License
+
+All movie/series data © TMDB API.
+Project created for educational/demo use.
+This App is Developed by Durgesh Sahu (ME). All Rights for the project belong to me. 
