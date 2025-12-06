@@ -17,6 +17,10 @@ const Footer = () => {
                         <Link to="/"></Link>
                     </div>
                 </div>
+
+                <div className="footer__content__copyright">
+                    © {new Date().getFullYear()} Durgesh Sahu
+                </div>
  
             </div>
         </div>
